@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cocossd/static/css/main.8155cb84.chunk.css",
-    "main.js": "/cocossd/static/js/main.561c23c0.chunk.js",
-    "main.js.map": "/cocossd/static/js/main.561c23c0.chunk.js.map",
+    "main.js": "/cocossd/static/js/main.84b99a68.chunk.js",
+    "main.js.map": "/cocossd/static/js/main.84b99a68.chunk.js.map",
     "runtime-main.js": "/cocossd/static/js/runtime-main.4e9f3251.js",
     "runtime-main.js.map": "/cocossd/static/js/runtime-main.4e9f3251.js.map",
     "static/js/2.7a7cfc91.chunk.js": "/cocossd/static/js/2.7a7cfc91.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.4e9f3251.js",
     "static/js/2.7a7cfc91.chunk.js",
     "static/css/main.8155cb84.chunk.css",
-    "static/js/main.561c23c0.chunk.js"
+    "static/js/main.84b99a68.chunk.js"
   ]
 }
