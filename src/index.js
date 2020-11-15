@@ -51,7 +51,7 @@ class App extends React.Component {
     const ctx = this.canvasRef.current.getContext("2d");
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
-    const font = "12px sans-serif";
+    const font = "18px sans-serif";
     ctx.font = font;
     ctx.textBaseline = "top";
     prediction.forEach((prediction) => {
@@ -66,7 +66,7 @@ class App extends React.Component {
 
       ctx.fillStyle = "#fc685b";
       const textWidth = ctx.measureText(prediction.class).width;
-      const textHeight = parseInt(font, 8);
+      const textHeight = parseInt(font, 10);
       ctx.fillRect(x, y, textWidth + 4, textHeight + 4);
     });
 
