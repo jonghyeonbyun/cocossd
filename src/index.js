@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import Fullscreen from "fullscreen-react";
 import "./index.css";
 import * as cocoSsd from "@tensorflow-models/coco-ssd";
 import "@tensorflow/tfjs";
@@ -80,23 +80,25 @@ class App extends React.Component {
   };
   render() {
     return (
-      <div>
-        <video
-          className="size"
-          autoPlay
-          playsInline
-          muted
-          ref={this.videoRef}
-          width={window.innerWidth}
-          height={window.innerHeight}
-        />
-        <canvas
-          className="size"
-          ref={this.canvasRef}
-          width={window.innerWidth}
-          height={window.innerHeight}
-        />
-      </div>
+      <Fullscreen>
+        <div>
+          <video
+            className="size"
+            autoPlay
+            playsInline
+            muted
+            ref={this.videoRef}
+            width={window.innerWidth}
+            height={window.innerHeight}
+          />
+          <canvas
+            className="size"
+            ref={this.canvasRef}
+            width={window.innerWidth}
+            height={window.innerHeight}
+          />
+        </div>
+      </Fullscreen>
     );
   }
 }
