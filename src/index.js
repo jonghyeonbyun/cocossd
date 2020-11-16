@@ -14,7 +14,7 @@ class App extends React.Component {
         .getUserMedia({
           audio: false,
           video: {
-            facingMode: { exact: "environment" },
+            facingMode: "user",
           },
         })
         .then((stream) => {
@@ -34,6 +34,24 @@ class App extends React.Component {
         .catch((error) => {
           console.error(error);
         });
+
+      const elem = this.canvasRef;
+
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.mozRequestFullScreen) {
+        /* Firefox */
+
+        elem.mozRequestFullScreen();
+      } else if (elem.webkitRequestFullscreen) {
+        /* Chrome, Safari & Opera */
+
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) {
+        /* IE/Edge */
+
+        elem.msRequestFullscreen();
+      }
     }
   }
 
@@ -77,9 +95,10 @@ class App extends React.Component {
       ctx.fillText(prediction.class, x, y);
     });
   };
+
   render() {
     return (
-      <div>
+      <div id="screen">
         <video
           className="size"
           autoPlay
