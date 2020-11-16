@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/cocossd/static/css/main.8155cb84.chunk.css",
-    "main.js": "/cocossd/static/js/main.b96a0aea.chunk.js",
-    "main.js.map": "/cocossd/static/js/main.b96a0aea.chunk.js.map",
+    "main.js": "/cocossd/static/js/main.ee625aff.chunk.js",
+    "main.js.map": "/cocossd/static/js/main.ee625aff.chunk.js.map",
     "runtime-main.js": "/cocossd/static/js/runtime-main.4e9f3251.js",
     "runtime-main.js.map": "/cocossd/static/js/runtime-main.4e9f3251.js.map",
-    "static/js/2.a8727ffe.chunk.js": "/cocossd/static/js/2.a8727ffe.chunk.js",
-    "static/js/2.a8727ffe.chunk.js.map": "/cocossd/static/js/2.a8727ffe.chunk.js.map",
+    "static/js/2.7a7cfc91.chunk.js": "/cocossd/static/js/2.7a7cfc91.chunk.js",
+    "static/js/2.7a7cfc91.chunk.js.map": "/cocossd/static/js/2.7a7cfc91.chunk.js.map",
     "index.html": "/cocossd/index.html",
     "static/css/main.8155cb84.chunk.css.map": "/cocossd/static/css/main.8155cb84.chunk.css.map",
-    "static/js/2.a8727ffe.chunk.js.LICENSE.txt": "/cocossd/static/js/2.a8727ffe.chunk.js.LICENSE.txt"
+    "static/js/2.7a7cfc91.chunk.js.LICENSE.txt": "/cocossd/static/js/2.7a7cfc91.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4e9f3251.js",
-    "static/js/2.a8727ffe.chunk.js",
+    "static/js/2.7a7cfc91.chunk.js",
     "static/css/main.8155cb84.chunk.css",
-    "static/js/main.b96a0aea.chunk.js"
+    "static/js/main.ee625aff.chunk.js"
   ]
 }

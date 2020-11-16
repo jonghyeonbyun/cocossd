@@ -11,12 +11,6 @@ object-assign
  * @license  MIT
  */
 
-/*!
-* screenfull
-* v5.0.2 - 2020-02-13
-* (c) Sindre Sorhus; MIT License
-*/
-
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
